@@ -1,0 +1,30 @@
+{
+  "name": "product-hunt-clone",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "cypress": "cypress open",
+    "cypress:headless": "cypress run"
+  },
+  "dependencies": {
+    "@emotion/babel-preset-css-prop": "^11.2.0",
+    "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.9.3",
+    "babel-plugin-emotion": "^11.0.0",
+    "date-fns": "^2.28.0",
+    "firebase": "9.9.0",
+    "firebase-admin": "^11.0.0",
+    "next": "12.2.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-firebase-file-uploader": "^2.4.4"
+  },
+  "devDependencies": {
+    "cypress": "^10.3.1"
+  }
+}
